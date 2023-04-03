@@ -107,9 +107,10 @@ const Dashboard = () => {
       <Text style={{marginTop: 135, marginLeft: 30,fontSize: 10,}}>Graduate School Handbook</Text>
       </View>
 
-      <Text style={{marginTop: 15,marginLeft: 30, fontWeight: 'bold',fontSize: 12}}>EDUCATIONAL RESOURCES</Text>
 
-      <View style={{ marginLeft: 30, borderBottomWidth: .5,borderColor: 'black', marginVertical: 10, marginRight: 30, }}> </View >
+      <View style={{ marginLeft: 30, borderBottomWidth: .5,borderColor: 'black', marginVertical: 10, marginRight: 30, }}>
+      
+      <Text style={{marginTop: 15,marginLeft: 30, fontWeight: 'bold',fontSize: 12}}>EDUCATIONAL RESOURCES</Text></View> 
       <View style={{ flexDirection: 'row'}}>
       <Image source={require('../assets/destiny.jpg')}style={{ marginLeft: 33, width: 40, height: 40,margin: 10  }}/>
       <Image source={require('../assets/EmeraldInsight.jpg')}style={{ marginLeft: 55, width: 40, height: 40,margin: 10  }}/>
