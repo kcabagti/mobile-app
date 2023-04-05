@@ -75,9 +75,9 @@ const Dashboard = () => {
           <Image source={require('../assets/uic.png')}style={{ width: 150, height: 50,margin: 10  }}/>
       </View>
 <View>
-      <Text style={{marginTop: 15, marginLeft: 30, fontWeight: 'bold',fontSize: 12}}>NOTIFCATIONS</Text>
+      <Text style={{marginTop: 15, marginLeft: 35, fontWeight: 'bold',fontSize: 12}}>NOTIFCATIONS</Text>
       </View>
-      <View style={{ marginLeft: 30, borderBottomWidth: .5, borderColor: 'black', marginVertical: 10,marginRight: 30, }}>
+      <View style={{ marginLeft: 30, borderBottomWidth: .5, borderColor: 'black', marginVertical: 5,marginRight: 30, }}>
 </View>
 
 <View>
@@ -87,10 +87,10 @@ const Dashboard = () => {
       <Image source={require('../assets/bell.png')} 
       style={{width: 50,height: 50,margin: 10,marginRight: 275,marginBottom: 10,  }}/>
   </View>
-<Text style={{marginTop: 15,marginLeft: 30, fontWeight: 'bold',fontSize: 12}}>QUICKLINKS</Text>
+<Text style={{marginTop: 15,marginLeft: 35, fontWeight: 'bold',fontSize: 12}}>QUICKLINKS</Text>
 
 </View>
-      <View style={{ marginLeft: 30, borderBottomWidth: .5,borderColor: 'black', marginVertical: 10, marginRight: 30, }}></View>
+      <View style={{ marginLeft: 30, borderBottomWidth: .5,borderColor: 'black', marginVertical: 3, marginRight: 30, }}></View>
 
       <View style={{ flexDirection: 'row'}}>
       <Image source={require('../assets/gmail.png')}style={{ marginLeft: 30, width: 40, height: 40,margin: 10  }}/>
@@ -108,9 +108,9 @@ const Dashboard = () => {
       </View>
 
 
-      <View style={{ marginLeft: 30, borderBottomWidth: .5,borderColor: 'black', marginVertical: 10, marginRight: 30, }}>
+      <View style={{ marginLeft: 30, borderBottomWidth: .5,borderColor: 'black', marginVertical: 5, marginRight: 30, }}>
       
-      <Text style={{marginTop: 15,marginLeft: 30, fontWeight: 'bold',fontSize: 12}}>EDUCATIONAL RESOURCES</Text></View> 
+      <Text style={{marginTop: 15,marginLeft: 5, fontWeight: 'bold',fontSize: 12}}>EDUCATIONAL RESOURCES</Text></View> 
       <View style={{ flexDirection: 'row'}}>
       <Image source={require('../assets/destiny.jpg')}style={{ marginLeft: 33, width: 40, height: 40,margin: 10  }}/>
       <Image source={require('../assets/EmeraldInsight.jpg')}style={{ marginLeft: 55, width: 40, height: 40,margin: 10  }}/>
