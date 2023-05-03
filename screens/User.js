@@ -2,7 +2,7 @@ import {Button} from 'react-native';
 
 
 
-function UserInterface () {
+function User () {
     return (
         <Button
   onPress={onPressLearnMore}
@@ -13,4 +13,4 @@ function UserInterface () {
     )
 };
 
-export default UserInterface;
+export default User;
